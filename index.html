@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="" id="css">
+    <script src="index.js" defer></script>
+    <title>Afiliación</title>
+</head>
+<body>
+    <style id="style">
+        .divDatos, .divContactos, .divActividades{
+            border: 2px solid grey;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        textarea{
+            height: 40px;
+            width: 150px;
+        }
+
+        input{
+            border: 2px solid grey;
+            margin: 2px;
+        }
+
+        #uno{
+            position: absolute;
+            top: 103px;
+            left: 30px;
+            background-color: white;
+        }
+        #dos{
+            position: absolute;
+            top: 320px;
+            left: 30px;
+            background-color: white;
+        }
+
+        #tres{
+            position: absolute;
+            top: 405px;
+            left: 30px;
+            background-color: white;
+        }
+    </style>
+    <header class="display">
+        <button type="button" id="cambiarEstilos">
+            Cambiar estilos.
+        </button>
+        <div class="barra1 tamañoBarra"></div>
+            <h1 id="titulo">
+                Vení al Gym! 💪
+            </h1>
+        <div class="barra2 tamañoBarra"></div>
+    </header>
+    <main>
+        <form action="" class="display" id="afiliacion">
+            <div class="traslate">
+                <span class="cartel" id="uno">
+                    🙋‍♂️ Datos Personales 👀
+                </span>
+            </div>
+            <div class="card display divDatos">
+                <label for="nombre">Nombre:*</label> 
+                <input type="text" class="datos" autofocus required> <br>
+                <label for="apellido">Apellido:*</label> 
+                <input type="text" class="datos" required> <br>
+                <label for="documento">Documento:*</label> 
+                <input type="text" class="datos" required> <br>
+                <label for="nacionalidad">Nacionalidad:*</label> 
+                <select name="nacionalidad" id="nacionalidad" required> <br> 
+                    <option value="">- Seleccionar -</option> 
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasileña">Brasileña</option>
+                    <option value="Uruguaya">Uruguaya</option>
+                    <option value="Otra">Otra</option>
+                </select> <br>
+                <label for="textArea">Contanos un poco de vos... </label>
+                <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+                <label for="">Sexo:*</label>
+                <div class="divSexo">
+                    <input name="sexo" type="radio" value="femenino" checked>
+                    <label for="femenino">Femenino</label>
+                    <input name="sexo" type="radio" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input name="sexo" type="radio" value="otro">
+                    <label for="otro">Otro</label>
+                </div>
+            </div> 
+
+            <div class="divisor">
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+            </div>
+            
+            <div class="traslate">
+                <span class="cartel" id="dos">📱Datos de Contacto ✉️</span>
+            </div>
+            <div class="card display divContactos"> 
+                <label for="telefono">Teléfono:</label>
+                <input type="text" name="telefono" placeholder="Código de área y número" class="datos"> <br>
+                <label for="email">Dirección de correo electrónico:*</label>
+                <input type="email" name="email" placeholder="Ej: mail@gmail.com" class="datos" required>
+            </div>
+
+            <div class="divisor">
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+            </div> 
+
+            <div class="traslate">
+                <span class="cartel" id="tres">
+                    🚴 Actividades 🤸
+                </span>
+            </div>
+
+            <div class="card divActividades">
+                <p class="letraPequeña">
+                    Por favor, indicá cuáles actividades te interesan.
+                </p> <br>
+
+                <div class="checkBox">
+                    <p class="letraNormal">Sede Palermo:</p> <br>
+
+                    <input type="checkbox" name="deporte" value="basquet">
+                    <label for="basquet">Basquet</label>
+                    <input type="checkbox" name="deporte" value="boxeo">
+                    <label for="boxeo">Boxeo</label>
+                    <input type="checkbox" name="deporte" value="futbol">
+                    <label for="futbol">Fútbol</label>
+                    <input type="checkbox" name="deporte" value="tenis">
+                    <label for="tenis">Tenis</label>
+                </div> <br> 
+
+                <div class="checkBox"> 
+                    <p class="letraNormal">Sede Rosario:</p>  <br>
+
+                    <input type="checkbox" name="deporte" value="basquet">
+                    <label for="basquet">Basquet</label>
+                    <input type="checkbox" name="deporte" value="futbol">
+                    <label for="futbol">Fútbol</label>
+                    <input type="checkbox" name="deporte" value="rugby">
+                    <label for="rugby">Rugby</label>
+                    <input type="checkbox" name="deporte" value="voley">
+                    <label for="voley">Voley</label>
+                </div>
+            </div>
+
+            <div class="divisor">
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+                <div class="divisores"></div>
+            </div>
+
+            <div class="terminos">
+              
+                <input type="checkbox" name="terminos" value="condiciones" required>
+                <label for="condiciones">Acepto las condiciones*</label> <br>
+                <input type="checkbox" name="terminos" value="novedades">
+                <label for="novedades">Deseo recibir novedades</label> <br><br>
+                
+                <div>
+                    <p class="letraPequeña">*: Campo obligatorio.</p>
+                </div>
+            </div>
+
+            <div class="botones">
+                <button type="submit" form="afiliacion" value="Iniciar Afiliacion">
+                    Iniciar afiliación
+                </button>
+                <button type="reset">
+                    Restablecer
+                </button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

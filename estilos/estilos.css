@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    font-size: 12px;
+    background-color: #2B3D37 ;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+label{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.datos, select{
+    min-width: 76%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #999999;
+    text-align: right;
+    padding: 2px;
+}
+
+textarea{
+    max-width: 76%;
+    min-width: 76%;
+    padding: 2px;
+}
+
+.card:focus-within{
+    background-color: #d6e2d3d7;
+}
+
+.datos:focus, textarea:focus{
+    background-color: #4D6D62;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.display{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 430px;
+    background-color: #D6E2D3;
+    border: 2px solid #2B3D37 ;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.traslate{
+    min-width: 410px;
+    transform: translate(0px, 10px);
+}
+
+.tamañoBarra{
+    width: 430px;
+    height: 16px;
+    background-color: #2B3D37;
+}
+
+.barra1{
+    margin-top: 10px;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+}
+
+.barra2{
+    margin-bottom: 10px;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+}
+
+.letraPequeña {
+    font-size: 12px;
+}
+
+.letraNormal{
+    font-size: 15px;
+}
+
+.divisor{
+    width: 430px;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.divisores{
+    width: 20px;
+    height: 20px;
+    clip-path: circle(30%);
+    background-color: #D6E2D3;
+    margin: 2px;
+}
+
+.terminos{
+    width: 430px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.terminos label{
+    color: #ffffff;
+}
+
+.terminos div p{
+    font-weight: bold;
+}
+
+.botones{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    background-color: #2B3D37;
+    color: #D6E2D3;
+    margin: 20px;
+    border: 1px solid #D6E2D3;
+    border-radius: 3px;
+    font-size: 12px;
+}
