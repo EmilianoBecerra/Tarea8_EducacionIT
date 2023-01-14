@@ -19,12 +19,11 @@ body{
 }
 
 button{
-    margin-top: 10px;
-    padding: 5px;
     border: 1px solid  #ffffffb6;;
     border-radius: 4px;
     color: #ffffffb6;
     background-color: #000000;
+    padding: 10px;
 }
 
 h1 span{
@@ -145,6 +144,26 @@ select, textarea{
 #futurista{
     display: none;
 }
+
+.butonesBonus{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.presionado{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.dados{
+    font-size: 10px;
+}
+
 
 @keyframes fondo{
     0%{
